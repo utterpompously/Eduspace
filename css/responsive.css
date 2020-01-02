@@ -1,0 +1,145 @@
+@media (min-width: 320px)and (max-width: 543px){
+	.menu{
+		display: none;
+	}
+		.header .logo{
+		padding: 15px;
+		text-align: center;
+	}
+	.header .logo img{
+		float: none;
+		vertical-align: 0;
+	}
+	.counterup .box{
+		margin-bottom: 20px;
+	}
+	.gallery .menubar ul li{
+		margin-bottom: 10px;
+	}
+	.ft-box button {
+		padding: 0px 8px;
+		font-size: 18px;
+	}
+		.content .text h2,
+	.content .link{
+		text-align: center;
+	}
+	.about-content .image{
+		margin-bottom: 25px;
+	}
+}
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px)and (max-width: 767px){
+	.menu{
+		display: none;
+	}
+	.header-top{
+		padding: 10px;
+	}
+	.header-top .inner{
+		display: inline-block;
+		
+		margin-left: 20%;
+	}
+	.header-top .right{
+		display: inline-block;
+		float: left;
+		margin-left: 30%;
+		margin-top: 0;
+	}
+	.header .logo{
+		padding: 15px;
+		text-align: center;
+	}
+	.header .logo img{
+		float: none;
+		vertical-align: 0;
+	}
+	.content .right{
+		margin-top: 30px;
+	}
+	.content .text h2,
+	.content .link{
+		text-align: center;
+	}
+	.counterup .box{
+		margin-bottom: 20px;
+	}
+	.courses .ord-box .text h3{
+		text-align: center;
+	}
+	.gallery .menubar ul li{
+		margin-bottom: 10px;
+	}
+	.teachers .box:hover .icon{
+		left: 32%;
+	}
+	.ft-box-1{
+		text-align: center;
+	}
+	.ft-box{
+		margin-bottom: 20px;
+	}
+	.ft-box .link{
+		margin-left: 25%;
+	}
+	.ft-box h3{
+		text-align: center;
+		margin-left: 0;
+	}
+	.ft-box button {
+		padding: 0px 8px;
+		font-size: 19px;
+	}
+	.slide-carousel .item .text{
+		margin-left: 4%;
+	}
+	.about-content .image{
+		margin-bottom: 25px;
+	}
+
+}
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) and (max-width: 991px){
+	.menu{
+		display: none;
+	}
+	.header-top .inner{
+		display: inline;
+	}
+	.header .logo{
+		padding: 15px;
+		text-align: center;
+	}
+	.header .logo img{
+		float: none;
+		vertical-align: 0;
+	}
+
+
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px){
+	.menu ul li{
+		width: 98px;
+	}
+	.menu{
+		display: block;
+	}
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.menu{
+		display: block;
+	}
+	.header-top{
+		padding: 0;
+	}
+	.header-top .right{
+		float: right;
+		margin-top: 15px;
+	}
+	.header-top .inner{
+		margin-left: 0;
+	}
+}
